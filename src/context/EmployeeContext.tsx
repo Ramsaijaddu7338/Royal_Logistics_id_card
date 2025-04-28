@@ -22,7 +22,6 @@ const defaultEmployeeData: EmployeeData = {
   name: 'YOUR NAME',
   position: 'Job Position',
   id: '',
-  joinDate: '23-APR-2025',
   phone: '',
   bloodGroup: '',
   avatarUrl: ''
