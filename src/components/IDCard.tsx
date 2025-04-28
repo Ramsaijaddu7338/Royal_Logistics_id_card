@@ -33,8 +33,9 @@ const IDCard: React.FC<{ side?: 'front' | 'back' }> = ({ side = 'front' }) => {
     }
   }, [employeeData]);
 
-  const backgroundImage = "public/assets/images/royal-template.jpg";
-  const signatureImage = "public/assets/images/signature.png";
+  const backgroundImage = "/images/royal-template.jpg";
+const signatureImage = "/images/signature.png";
+
 
   if (side === 'back') {
     return (
